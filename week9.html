@@ -10,6 +10,220 @@
         h1{
             padding: 20%;
         }
+	    
+	* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+    color: #333;
+}
+
+header {
+	background-color: rgb(254, 229, 86);
+	color: #fff;
+	padding: 10px;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+main {
+	margin: 50px;
+}
+
+h1 {
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+
+.image-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	grid-gap: 20px;
+}
+
+.image {
+	position: relative;
+}
+
+.image img {
+	width: 100%;
+	height: auto;
+}
+
+.price {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	background-color: #333;
+	color: #fff;
+	padding: 5px 10px;
+	font-size: 16px;
+}
+.price3 {
+	position: absolute;
+	top: 18%;
+	right: 530px;
+	background-color: #333;
+	color: #fff;
+	padding: 20px 30px;
+	font-size: 16px;
+}
+
+.image-details {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.resolution, .size {
+	margin-top: 10px;
+}
+
+.buy-now-button {
+	background-color: #333;
+	color: #fff;
+	padding: 30px;
+	border: none;
+	border-radius: 5px;
+	margin-top: 50px;
+	font-size: 18px;
+}
+
+.buy-now-button:hover {
+	background-color: #444;
+	cursor: pointer;
+}
+
+footer {
+	background-color: rgb(254, 229, 86);
+	color: #fff;
+	padding: 10px;
+	margin-top: 50px;
+	text-align: center;
+}
+.image-grid {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.image {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: calc(33.33% - 20px);
+	margin-bottom: 30px;
+}
+
+.image img {
+	width: 100%;
+	object-fit: cover;
+	height: 200px;
+}
+
+.price {
+	margin-top: 10px;
+	font-weight: bold;
+	font-size: 18px;
+}
+.letters{
+    position: relative;
+    bottom: 300px;
+    left: 365px;
+}
+p{
+    color: #333;
+}
+li a:nth-child(1) {
+    color: #333;
+  }
+  
+  li a:nth-child(2) {
+    color: #333;
+  }
+  
+  li a:nth-child(3) {
+    color: #333;
+  }
+
+  input[type="text"],input[type="email"] {
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 1rem;
+ }
+
+input[type="text"]:focus,
+input[type="email"]:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+textarea {
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  height: 150px;
+  margin-bottom: 1rem;
+}
+
+textarea:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+button[type="submit"] {
+  font-size: 1.2rem;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #4CAF50;
+  color: #fff;
+  cursor: pointer;
+  width: fit-content;
+  margin-left: 120px;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40%;
+    margin-bottom: 1rem;
+  }
+  
+.image-home img{
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+    max-width:750px;
+    max-height: 750px;
+    position: relative;
+    left: 55%;
+    bottom: 650px;
+    margin-bottom: -500px;
+}
+
         
     </style>
 </head>
